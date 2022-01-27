@@ -1,3 +1,4 @@
+"use strict";
 // 1. Réaliser une fonction qui vérifie si un mot passé en paramètre contient au moins 8 caractères.
 
 const haveMostOf8char = (word) => {
