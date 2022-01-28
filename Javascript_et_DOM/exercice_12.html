@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 12</title>
+</head>
+<body>
+
+    <!-- 1. Modifier la couleur des élément input depuis javascript -->
+    <form action="">
+        <label for="nom">Nom :</label>
+        <input type="text" name="nom" id="nom">
+        <label for="prenom">prénom :</label>
+        <input type="text" name="prenom" id="prenom">
+    </form>
+
+    <script>
+        const nomInput = document.getElementById("nom");
+        const ageInput = document.getElementById("age");
+
+        nomInput.style.color = "blue";
+    </script>
+    
+</body>
+</html>
