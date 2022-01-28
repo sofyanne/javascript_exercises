@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 13</title>
+</head>
+<body>
+
+    <!-- 1. Créer un compteur de click -->
+    <h3>Appuyez sur le bouton pour incrémenter le compteur!!!</h3>
+    <button id="incrementeur">Incrémenter</button>
+
+    <div >Nombre de click : <span id="nombreClick">0</span></div>
+
+    <script>
+        let compteur = 0;
+        const nombreClick = document.getElementById("nombreClick");
+        const upButton = document.getElementById("incrementeur");
+
+        upButton.addEventListener("click", (event) => {
+            event.preventDefault();
+            compteur++;
+            nombreClick.textContent = compteur;
+
+        });
+
+
+    </script>
+    
+</body>
+</html>
