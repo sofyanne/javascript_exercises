@@ -1,5 +1,9 @@
 "use strict";
 
+// 1. Créer un programme permettant de compléter un tableau de chiffres.
+// le chiffre doit s'inserer directement à la bonne place (tableau trié).
+// Réaliser un menu permettant l'ajout de plusieurs valeurs.
+
 const readline = require("readline-sync");
 
 const showInfo = (info) => {
